@@ -36,7 +36,7 @@ void heap_sort(int a[], int n){
 
 int main() {
     int n;
-    int arr[n+1];
+    int arr[100000];
     cin >> n;
     for(int i=1; i<=n; i++){
         cin >>arr[i];
